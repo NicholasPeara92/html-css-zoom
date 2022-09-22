@@ -41,7 +41,8 @@ small{
 li{
     list-style: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 5px 10px 10px;
+    text-align: center;
 }
 li i{
     padding: 5px;
@@ -95,8 +96,13 @@ header span{
 .leave-room small{
     color: red;
     text-align: center;
-    padding: 20px 30px;
-    line-height: 45px;
+    padding: 15px 30px;
+    line-height: 60px;
     font-size: 14px;
     font-weight: bold;
+    
+}
+.arrow{
+    vertical-align: text-bottom;
+    
 }
