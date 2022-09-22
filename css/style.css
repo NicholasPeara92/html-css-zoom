@@ -23,20 +23,31 @@ header {
 }
 
 main {
-    height: calc(100% - 140px);
+    height: calc(100% - 150px);
     background-color: black;
     width: 90%;
     margin: auto;
-    overflow-y: auto;
-    
+    overflow-y: auto; 
 }
 
 footer {
     height: 90px;
     background-color: #222222;
-    margin-top: 10px;
+    margin-top: 10px;   
+}
+small{
+    display: block;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+li i{
+    padding: 5px;
     
 }
+
 /* header */
 header span{
     background-color: grey;
@@ -73,3 +84,18 @@ header span{
 }
 
 /* footer */
+.room-settings{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.leave-room{
+    background-color: grey;
+}
+.leave-room small{
+    color: red;
+    text-align: center;
+    padding: 20px 30px;
+    line-height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+}
