@@ -102,6 +102,9 @@ header span{
     font-weight: bold;
     
 }
+.share i{
+    color: rgb(75, 255, 47);
+}
 .arrow{
     vertical-align: text-bottom;
     
