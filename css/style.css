@@ -69,7 +69,7 @@ header span{
     position: relative;
     max-width:245px;
     height: 145px;
-    margin: 10px;
+    margin: 5px 10px;
 }
 .guest img{
     width:100%;
